@@ -1,19 +1,19 @@
-# GEMINI.md - Project Guidelines for Gemini CLI
+# GEMINI.md - Gemini CLI向けプロジェクトガイドライン
 
-This file provides guidelines and context for the Gemini CLI to effectively assist with this project.
+このファイルは、Gemini CLIがこのプロジェクトを効果的に支援するためのガイドラインとコンテキストを提供します。
 
-## Project Overview
+## プロジェクト概要
 
-This is a simple Python Flask web application. The primary goal is to demonstrate basic web application development, dependency management, and Git integration using Gemini CLI.
+これはシンプルなPython Flask Webアプリケーションです。主な目的は、Gemini CLIを使用して基本的なWebアプリケーション開発、依存関係管理、およびGit統合を実演することです。
 
-## Development Requirements
+## 開発要件
 
-- **Language**: Python 3.x
-- **Framework**: Flask
-- **Dependencies**: Listed in `requirements.txt`
-- **Entry Point**: `app.py` (main Flask application file)
+- **言語**: Python 3.x
+- **フレームワーク**: Flask
+- **依存関係**: `requirements.txt` に記載されています。
+- **エントリポイント**: `app.py` (メインのFlaskアプリケーションファイル)
 
-## Project Structure (Expected)
+## プロジェクト構造 (想定)
 
 ```
 ./
@@ -24,21 +24,21 @@ This is a simple Python Flask web application. The primary goal is to demonstrat
 └── .gitignore
 ```
 
-## Key Tasks for Gemini CLI
+## Gemini CLIの主要タスク
 
-- **Code Generation**: Create `app.py` and `requirements.txt`.
-- **Dependency Management**: Install Python dependencies using `pip`.
-- **Application Execution**: Run the Flask development server.
-- **Git Operations**: Stage, commit, and push changes to GitHub.
-- **Troubleshooting**: Debug common Python/Flask issues.
+- **コード生成**: `app.py` および `requirements.txt` の作成。
+- **依存関係管理**: `pip` を使用したPython依存関係のインストール。
+- **アプリケーション実行**: Flask開発サーバーの実行。
+- **Git操作**: 変更のステージング、コミット、GitHubへのプッシュ。
+- **トラブルシューティング**: 一般的なPython/Flaskの問題のデバッグ。
 
-## How to Run the Application (for Gemini CLI)
+## アプリケーションの実行方法 (Gemini CLI向け)
 
-1.  Install dependencies: `pip install -r requirements.txt`
-2.  Run the application: `python app.py` (or `flask run` if configured)
+1.  依存関係のインストール: `pip install -r requirements.txt`
+2.  アプリケーションの実行: `python app.py` (または設定されている場合は `flask run`)
 
-## Important Notes
+## 重要な注意事項
 
-- Always refer to `requirements.txt` for project dependencies.
-- Ensure virtual environments are used for dependency management.
-- Follow standard Python best practices (e.g., PEP 8).
+- プロジェクトの依存関係については、常に `requirements.txt` を参照してください。
+- 依存関係管理には仮想環境を使用するようにしてください。
+- 標準的なPythonのベストプラクティス (例: PEP 8) に従ってください。
